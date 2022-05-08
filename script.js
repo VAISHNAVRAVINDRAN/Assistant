@@ -17,22 +17,22 @@ var voices=transcript.toLowerCase();
 var txt=document.createElement("div");		
 txt.classList.add("client");
 txt.innerHTML=transcript;
-window.scrollTo(0, document.body.scrollHeight);
+txt.scrollIntoView(false);
 disp.appendChild(txt);
 if(voices=="hello" || voices=="hi" || voices=="hey") {
 var com=document.createElement("div");		
 com.classList.add("computer");
 com.innerHTML="Hi";
-disp.scrollTo(0, document.body.scrollHeight);
+disp.scrollIntoView(false);
 disp.appendChild(com);    
 }
 if(voices=="what is your name" || voices=="name" || voices=="your name") {
 var com=document.createElement("div");		
 com.classList.add("computer");
 com.innerHTML="Myname is VimoWeb Iam your Assistant";
-
+com.scrollIntoView(false);
 disp.appendChild(com);    
-com.scrollIntoView()
+
 }
 };
 recognition.start();
