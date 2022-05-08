@@ -1,0 +1,66 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background:#202020;
+}
+.mic{
+    width:100px;
+    height:100px;
+    background:#202020;
+    padding:3.5rem;
+    border-radius:100%;
+    
+}
+.mic:hover{
+    color:#ff4500;
+}
+.display{
+    width:95%;    
+    height:70vh;
+    margin:auto;
+    border-radius:1rem;
+    overflow:scroll;
+    scroll-behavior:smooth;
+}
+.computer{
+    width:400px;
+    height:auto;
+    background:#333;
+    padding:1rem;
+    border-radius:1rem;
+    border-top-left-radius:0rem;
+    margin-top:2%;
+    margin-left:2%;
+    word-wrap:break-word;
+    color:lavender;
+    font-weight:bolder;
+    font-size:2em;
+    overflow:scroll;
+}
+.client{
+    width:400px;
+    height:auto;
+    background:#333;
+    padding:1rem;
+    border-radius:1rem;
+    border-top-right-radius:0rem;
+    margin-top:2%;
+    margin-left:51%;
+    word-wrap:break-word;
+    color:lavender;
+    font-weight:bolder;
+    font-size:2em;
+    overflow: scroll;
+}
+.colors{
+    width:130px;
+    height:130px;
+    background:linear-gradient(45deg,dodgerblue,tomato,violet);
+    padding:3rem;
+    border-radius:100%;
+    position: absolute;
+    top:75%;
+    left:40%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
