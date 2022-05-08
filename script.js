@@ -17,17 +17,20 @@ var voices=transcript.toLowerCase();
 var txt=document.createElement("div");		
 txt.classList.add("client");
 txt.innerHTML=transcript;
+txt.scrollIntoView();
 disp.appendChild(txt);
 if(voices=="hello" || voices=="hi" || voices=="hey") {
 var com=document.createElement("div");		
 com.classList.add("computer");
 com.innerHTML="Hi";
+com.scrollIntoView();
 disp.appendChild(com);    
 }
 if(voices=="what is your name" || voices=="name" || voices=="your name") {
 var com=document.createElement("div");		
 com.classList.add("computer");
 com.innerHTML="Myname is VimoWeb Iam your Assistant";
+com.scrollIntoView();
 disp.appendChild(com);    
 }
 };
