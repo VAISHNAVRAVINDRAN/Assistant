@@ -15,11 +15,11 @@ body {
 }
 .display{
     width:95%;    
-    height:70vh;
+    height:65vh;
     margin:auto;
     border-radius:1rem;
     overflow:scroll;
-    scroll-behavior:smooth;
+
 }
 .computer{
     width:400px;
@@ -58,7 +58,7 @@ body {
     padding:3rem;
     border-radius:100%;
     position: absolute;
-    top:75%;
+    top:77%;
     left:40%;
     display:flex;
     align-items:center;
